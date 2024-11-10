@@ -9,7 +9,7 @@ with open('fishknn.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Streamlit UI
-st.title("Klasifikasi Modelining KNN")
+st.title("Klasifikasi Modeling KNN")
 length = st.number_input("Length")
 weight = st.number_input("Weight")
 w_l_ratio = st.number_input("Width-to-Length Ratio")
